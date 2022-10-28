@@ -1,0 +1,110 @@
+/*Comentario*/
+
+span
+{
+  font-weight: bold;
+  font-style:italic;
+  text-decoration: underline;
+  color: red;
+}
+
+h2
+{
+  border: 1px red solid;
+  letter-spacing: 10px;
+  font-weight: normal;
+}
+
+#uno
+{
+
+}
+
+.contenedor1
+{
+  border: 1px red solid;
+  max-width: 300px;
+
+  /*sirve para centrar una caja*/
+  margin: auto;
+
+  /*sirve para centrar el contenido de una caja*/
+  text-align: center;
+
+}
+
+body
+{
+  font-family:Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color:#333;
+  background-image: url(https://i.pinimg.com/564x/46/a3/e4/46a3e4f7ee12e2aa4d2894486890d651.jpg);
+   background-position: center;
+
+}
+
+.Lista1
+{
+  border: 1px red solid;
+}
+
+.Lista2
+{
+  background-color:aqua;
+  padding: 15px 30px 15px 0px;
+  /*ariba y abajo e izquirda y derecha*/
+  /*tambien se podria asi padding-left: 15px; */
+}
+
+.contenedorfoto1
+{
+  margin: auto;
+  width: 600px;
+  border: 1px red solid;
+  text-align: center;
+  background-color: aqua;
+  background-image: url(https://c.tenor.com/IjIXFxklw40AAAAd/meme-shitpost.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60px 0px;
+
+
+
+}
+
+.foto1
+{
+  border: 10px cyan solid;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+    /*Poner un buen tamano pero solo se muestra
+    una parte de la imagen con el fit cover*/
+    border-radius: 50%;
+        /*Poner bordes redondos con
+        border-radius: 30px; */
+
+    box-shadow: 0px 0px 10px brown;
+
+}
+
+.foto3
+{
+  border: 10px white solid;
+  width: 200px;
+  height: 200px;
+
+}
+
+.contenedorfacebook span
+{
+  vertical-align: middle;
+
+}
+
+.iconofacebook
+{
+  width: 50px;
+  vertical-align: middle;
+}
